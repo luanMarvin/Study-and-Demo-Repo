@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="icon" href="src/icon.ico">
+    <link rel="stylesheet" href="main.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="guiContainer">
+        <h1 id="visor">0</h1>
+        <button onclick="botaoBackspace()">B</button>
+        <button onclick="botaoCE()">CE</button>
+        <button onclick="botaoC()">C</button>
+        <button onclick="botaoDivide()">/</button>
+        <br>
+        <button onclick="botaoPressionado(7)">7</button>
+        <button onclick="botaoPressionado(8)">8</button>
+        <button onclick="botaoPressionado(9)">9</button>
+        <button onclick="botaoMultiply()">x</button>
+        <br>
+        <button onclick="botaoPressionado(4)">4</button>
+        <button onclick="botaoPressionado(5)">5</button>
+        <button onclick="botaoPressionado(6)">6</button>
+        <button onclick="botaoMinus()">-</button>
+        <br>
+        <button onclick="botaoPressionado(1)">1</button>
+        <button onclick="botaoPressionado(2)">2</button>
+        <button onclick="botaoPressionado(3)">3</button>
+        <button onclick="botaoSum()">+</button>
+        <br>
+        <button class="button_zero" onclick="botaoPressionado(0)">0</button>
+        <button onclick="botaoComma()">,</button>
+        <button class="button_equal" onclick="botaoEqual()">=</button>
+        <br>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
