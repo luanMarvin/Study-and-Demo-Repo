@@ -58,22 +58,22 @@ let botaoMultiply = () => {
         numeroExibido = '0';
     }
 }
-let botaoMinus = () => {
+let botaoSubtract = () => {
     if(operation != 'none' && numeroExibido !== '0'){
         botaoEqual();
     }
     if(numeroExibido !== '0'){
-        operation = 'minus';    
+        operation = 'subtract';    
         lastTerm = parseFloat(numeroExibido);
         numeroExibido = '0';                
     }
 }
-let botaoPlus = () => {
+let botaoSum = () => {
     if(operation != 'none' && numeroExibido !== '0'){
         botaoEqual();
     }
     if(numeroExibido !== '0'){
-        operation = 'plus';
+        operation = 'sum';
         lastTerm = parseFloat(numeroExibido);
         numeroExibido = '0';
     }
@@ -104,7 +104,7 @@ let botaoEqual = () => {
             document.getElementById('visor').innerHTML = numeroExibido;
 
         break;
-        case 'minus':
+        case 'subtract':
             numeroExibido = lastTerm - parseFloat(numeroExibido);
             numeroExibido = numeroExibido.toString();
             if(numeroExibido.length > 8){
@@ -113,7 +113,7 @@ let botaoEqual = () => {
             document.getElementById('visor').innerHTML = numeroExibido;
 
         break;
-        case 'plus':
+        case 'sum':
             numeroExibido = lastTerm + parseFloat(numeroExibido);
             numeroExibido = numeroExibido.toString();
             if(numeroExibido.length > 8){
