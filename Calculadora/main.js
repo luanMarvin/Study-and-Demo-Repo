@@ -78,7 +78,7 @@ let botaoSum = () => {
         numeroExibido = '0';
     }
 }
-//Demais botões
+//Virgula e Igual
 let botaoComma = () => {
     if(numeroExibido.indexOf('.') == -1){
         comma = true;
@@ -93,7 +93,6 @@ let botaoEqual = () => {
                 numeroExibido = numeroExibido.substring(0,7);
             }
             document.getElementById('visor').innerHTML = numeroExibido;
-
         break;
         case 'multiply':
             numeroExibido = lastTerm * parseFloat(numeroExibido);
@@ -102,7 +101,6 @@ let botaoEqual = () => {
                 numeroExibido = numeroExibido.substring(0,7);
             }
             document.getElementById('visor').innerHTML = numeroExibido;
-
         break;
         case 'subtract':
             numeroExibido = lastTerm - parseFloat(numeroExibido);
@@ -111,7 +109,6 @@ let botaoEqual = () => {
                 numeroExibido = numeroExibido.substring(0,7);
             }
             document.getElementById('visor').innerHTML = numeroExibido;
-
         break;
         case 'sum':
             numeroExibido = lastTerm + parseFloat(numeroExibido);
