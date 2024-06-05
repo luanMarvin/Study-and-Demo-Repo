@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Guess the Color</title>
+</head>
+<body>
+    <div class="game-area">
+        <h1>GUESS THE COLOR</h1>
+        <div class="colors-area">
+            <div id="colorChoose"><p id="colorText"></p></div>
+            <br>
+            <div class="color-block" id="colorOne" onclick="colorClicked(1);">
+            </div>
+            <div class="color-block" id="colorTwo" onclick="colorClicked(2);">
+            </div>
+            <div class="color-block" id="colorThree" onclick="colorClicked(3);">
+            </div>
+            <div class="color-block" id="colorFour" onclick="colorClicked(4);">
+            </div>
+            <div class="color-block" id="colorFive" onclick="colorClicked(5);">
+            </div>
+        </div>
+        <div class="coin-area">
+            <img id="coin" src="src/coin.png">
+            <span id="coinCounter">0</span>
+        </div>
+        <script src="main.js"></script>
+    </div> 
+</body>
+</html>
