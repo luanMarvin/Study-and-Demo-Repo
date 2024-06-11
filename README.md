@@ -12,14 +12,14 @@ Este repositório será responsável por manter alguns projetos simples de demon
 - Caso tenha interesse em algum dos projetos abaixo, você pode entrar em contato comigo para fins comerciais ou colaborativos em algum projeto que seja de interesse de ambas as partes.
 - Cada projeto conta com uma pequena explicação sobre o mesmo.
 
-## NimbusMath - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+## NimbusMath - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ### Sobre
 O foco da aplicação é simular uma calculadora convencional, sem objetivos muito diferentes por trás disso. A aplicação contém uma interface simples e similar a outras calculadoras, com um design agradável baseado em nuvens como temática lúdica. É possível usar a aplicação em dispositivos móveis e desktop devido à sua responsividade.
 ### Instalação
 Realize um download convêncional e abra o arquivo index.html dentro da pasta principal com seu navegador padrão.
 Para usar a aplicação online acesse: ``https://numbusmath.netlify.app/`` 
 
-## Guess The Colors - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+## Guess The Colors - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ### Sobre
 Este projeto é um jogo simples onde é possível treinar o usuário a reconhecer as cores apenas pelo seu código RGB. É possível ganhar moedas no jogo como forma de pontuação, funcionando da seguinte forma:
 - Acertar a cor no quadro de escolhas resulta em uma pontuação de 3 moedas.
@@ -50,14 +50,14 @@ This repository will be responsible for maintaining some simple demonstration pr
 - If you are interested in any of the projects below, you can contact me for commercial or collaborative purposes on a project that is of mutual interest.
 - Each project includes a brief explanation about it.
 
-## NimbusMath - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+## NimbusMath - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ### About
 The focus of the application is to simulate a conventional calculator, without any different objectives behind it. The application has a simple interface similar to other calculators, with a pleasant design based on clouds as a playful theme. It is possible to use the application on both mobile and desktop devices due to its responsiveness.
 ### Installation
 Perform a conventional download and open the index.html file in the main folder with your default browser. 
 To use the application online, go to: ``https://nimbusmath.netlify.app/``
 
-## Guess The Colors - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+## Guess The Colors - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ### About
 This project is a simple game where users can train to recognize colors based solely on their RGB code. Players can earn coins in the game as a form of scoring, which works as follows:
 
@@ -65,7 +65,7 @@ This project is a simple game where users can train to recognize colors based so
 - Incorrectly guessing the color on the selection board results in a loss of 2 coins.
 ### Installation
 Perform a conventional download and open the index.html file in the main folder with your default browser. 
-To use the application online, go to: ``https://guess-the-colors.netlify.app/``
+To use the application online, go to: ``https://guess-the-colors.netlify.app/`` 
 
 ## Tik Tak Toe - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 ### About

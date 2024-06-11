@@ -1,0 +1,55 @@
+body {
+  background-color: #3A3B3C;
+}
+
+#game-area {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+#game-area h1 {
+  font-size: 1.8rem;
+  color: #00b6b6;
+}
+#game-area .colors-area {
+  border: 2px double #000000;
+  padding: 25px;
+  background-color: #B0B3B8;
+  border-radius: 10px;
+}
+#game-area .coin-area {
+  margin-top: 10px;
+  border: 2px double #000000;
+  padding: 5px;
+  background-color: #B0B3B8;
+  border-radius: 10px;
+}
+#game-area .color-block {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+#game-area .color-block:hover {
+  cursor: pointer;
+}
+#game-area #colorChoose {
+  width: 266px;
+  height: 50px;
+  border: 2px double #000000;
+  border-radius: 10px;
+  background-color: #E4E6EB;
+}
+#game-area #colorText {
+  text-indent: 75px;
+}
+#game-area #coin {
+  padding-top: 5px;
+  width: 50px;
+}
+#game-area #coinCounter {
+  font-size: 50px;
+  vertical-align: text-bottom;
+  padding: 0 20px;
+}/*# sourceMappingURL=index.css.map */
